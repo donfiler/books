@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Books by Don Filer">
+    <meta name="author" content="Don Filer">
+
+    <title>Books - Don Filer</title>
+
+    <!-- Bootstrap CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="https://donfiler.blogspot.com/">Blog</a>
+        <a href="https://donfiler.us/portfolio/">About</a>
+        <a href="https://www.amazon.com/Mr.-Donald-P.-Filer/e/B01JUZDBKG">Purchase</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="hero">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="img/book1_f.jpg" class="book-img">
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <div class="logo-box">
+                        <img src="img/correct.png" alt="">
+                    </div>
+                    <div class="details-box">
+                        <h4>Coming of Age in Zweibrucken</h4>
+                        <p>Memories of growing up in Germany during the Cold War. 1959 through 1963. The first book in a series about Don's life.</p>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <div class="logo-box">
+                        <img src="img/alarm.png" alt="">
+                    </div>
+                    <div class="details-box">
+                        <h4>Be True to Your School</h4>
+                        <p>A catchy tune by the Beach Boys in the mid-sixties, the lyrics of Be True to Your School hit many highlights of high school in that era</p>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <div class="logo-box">
+                        <img src="img/amazon.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="img/img024.jpg" class="book-img">
+            </div>
+        </div><br></br>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="img/book3_f.jpg" class="book-img">
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <div class="logo-box">
+                        <img src="img/message.png" alt="">
+                    </div>
+                    <div class="details-box">
+                        <h4>Parts and Labor</h4>
+                        <p>College Years and Rock Band Entrepreneur. Rock star wannabe from 1970 through 1975. The third book in a series about Don's life.</p>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <div class="logo-box">
+                        <img src="img/bell.png" alt="">
+                    </div>
+                    <div class="details-box">
+                        <h4>Working for a Living</h4>
+                        <p></p>Contributing to others is the highest form of success. "This is about what I learned over the years working for a living. The information in this book will help you navigate your career and avoid some of the pitfalls I discovered
+                        on my way to achieving success."</p>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <div class="logo-box">
+                        <img src="img/correct.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="img/book4_f.jpg" class="book-img">
+            </div>
+        </div>
+    </div>
+
+    <p class="watermark">Books by Don Filer</p>
+
+    <footer class="footer-distributed">
+        <div class="footer-left">
+            <h3>Don <span>Filer</span></h3>
+            <p class="footer-links">
+                <a href="#">Home</a> ·
+                <a href="https://donfiler.blogspot.com/">Blog</a> ·
+                <a href="https://www.amazon.com/Mr.-Donald-P.-Filer/e/B01JUZDBKG">Purchase</a> ·
+                <a href="#contact">Contact</a>
+            </p>
+            <p class="footer-company-name">WEBDOC Don Filer &copy; 2019</p>
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/don.filer"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/donfiler"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/filerdon/?trk=profile-badge"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/donfiler"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+        <div class="footer-right" id="contact">
+            <p>Contact Us</p>
+            <form action="../contact-form/contact.php" method="post">
+                <input type="text" name="name" placeholder="Name" />
+                <input type="text" name="email" placeholder="Email" />
+                <textarea name="message" placeholder="Message"></textarea>
+                <button>Send</button>
+            </form>
+        </div>
+    </footer>
+
+
+    <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <script src="js/jquery.min.js"></script>
+    <script>
+        src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"
+    </script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
